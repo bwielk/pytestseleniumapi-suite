@@ -1,5 +1,5 @@
 from fixtures import *
 
 pytest_plugins = [
-    "fixtures.*"
+    "fixtures.webdriver_holder"
 ]
