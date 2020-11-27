@@ -12,3 +12,5 @@ def fill_password_field(driver, text):
 
 def submit_data(driver):
     click_actions.click_element(driver, login_page_locators.submit_button)
+
+

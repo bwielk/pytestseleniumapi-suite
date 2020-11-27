@@ -1,0 +1,2 @@
+request_submitted_message = "Instructions to reset your password have been sent to this email if it's linked to an account %s It may take a few minutes to appear in your inbox. If you can't find it, check your spam."
+invalid_password_format = "PLEASE ENTER A VALID EMAIL"
