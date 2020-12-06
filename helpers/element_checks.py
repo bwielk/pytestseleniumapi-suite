@@ -1,6 +1,7 @@
 from selenium.webdriver.common.by import By
+from driver.DriverHolder import DriverHolder
 
 
-def check_content(driver, css_selector, expected_content):
-    element = driver.find_element(By.CSS_SELECTOR, css_selector)
+def check_content(css_selector, expected_content):
+    element = DriverHolder.get_driver().find_element(By.CSS_SELECTOR, css_selector)
     assert element.text == expected_content

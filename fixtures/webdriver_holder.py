@@ -1,10 +1,9 @@
 import pytest
-from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
+from driver.DriverHolder import DriverHolder
 
-@pytest.fixture()
+
+@pytest.fixture(autouse=True)
 def gen_web_driver():
-    driver = webdriver.Chrome(ChromeDriverManager().install())
-    driver.get("https://www.fanduel.com/")
-    driver.maximize_window()
-    return driver
+    DriverHolder.generate_driver()
+    yield
+    DriverHolder.get_driver().close()
