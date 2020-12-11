@@ -1,7 +1,6 @@
-from selenium.webdriver.common.by import By
-from front_end.driver.DriverHolder import DriverHolder
+from front_end.helpers.ExpectedConditionWait import ExpectedConditionWait
 
 
 def check_content(css_selector, expected_content):
-    element = DriverHolder.get_driver().find_element(By.CSS_SELECTOR, css_selector)
+    element = ExpectedConditionWait.wait_until_element_visible(css_selector)
     assert element.text == expected_content

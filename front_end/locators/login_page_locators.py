@@ -1,4 +1,4 @@
-email_input_field = "[data-test-id=\"login.email\"]"
+email_input_field = "[data-test-id='login.email']"
 password_input_field = "[data-test-id=\"login.password\"]"
 submit_button = "[data-test-id=\"login.submit\"]"
 forgot_password = "[href=\"/forgot-password\"]"

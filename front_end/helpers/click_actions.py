@@ -1,7 +1,7 @@
-from selenium.webdriver.common.by import By
-from front_end.driver.DriverHolder import DriverHolder
+from front_end.helpers.ExpectedConditionWait import ExpectedConditionWait
 
 
 def click_element(css_selector):
-    DriverHolder.get_driver().find_element(By.CSS_SELECTOR, css_selector)
+    element = ExpectedConditionWait.wait_until_element_clickable(css_selector)
+    element.click()
 
