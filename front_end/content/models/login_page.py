@@ -1,6 +1,6 @@
-from helpers import click_actions, text_field_actions, element_checks
-from locators import login_page_locators
-from content import login_page_content
+from front_end.helpers import click_actions, text_field_actions, element_checks
+from front_end.locators import login_page_locators
+from front_end.content import login_page_content
 
 
 def fill_email_field(text):

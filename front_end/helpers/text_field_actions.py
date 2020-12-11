@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from driver.DriverHolder import DriverHolder
+from front_end.driver.DriverHolder import DriverHolder
 
 
 def send_text(css_selector, content):

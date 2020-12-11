@@ -1,5 +1,5 @@
 import pytest
-from driver.DriverHolder import DriverHolder
+from front_end.driver.DriverHolder import DriverHolder
 
 
 @pytest.fixture(autouse=True)

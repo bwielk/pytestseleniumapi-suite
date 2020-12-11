@@ -1,5 +1,4 @@
-from fixtures import *
-
 pytest_plugins = [
-    "fixtures.webdriver_holder"
+    "front_end.fixtures.webdriver_holder",
+    "api.fixtures"
 ]

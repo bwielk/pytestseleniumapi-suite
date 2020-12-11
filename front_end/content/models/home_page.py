@@ -1,5 +1,5 @@
-from helpers import click_actions, browser_helper
-from locators import home_page_locators
+from front_end.helpers import click_actions, browser_helper
+from front_end.locators import home_page_locators
 
 
 def open_main_page():

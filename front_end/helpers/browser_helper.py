@@ -1,4 +1,4 @@
-from driver.DriverHolder import DriverHolder
+from front_end.driver.DriverHolder import DriverHolder
 
 
 def open_url(url_string):
