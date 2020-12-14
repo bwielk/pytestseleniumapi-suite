@@ -17,3 +17,7 @@ def submit_data():
 
 def check_failed_login_content():
     element_checks.check_content(login_page_locators.login_error, login_page_content.failed_login)
+
+
+def confirm_account():
+    element_checks.check_content(login_page_locators.confirm_email_section, login_page_locators.confirm_email_section)

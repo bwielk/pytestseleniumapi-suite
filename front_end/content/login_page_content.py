@@ -1,1 +1,3 @@
-failed_login = "We don't recognize that email & password combination. For your security, we'll lock your account after 1 more incorrect login attempts. Try again or reset your password."
+failed_login = "Es sieht so aus, als hättest du die falschen Infos eingegeben."
+confirm_account  = "Zu deiner Sicherheit wurde ein Bestätigungslink per %s an dich versendet. " \
+                   "Jetzt bestätigen, um mit der Registrierung fortzufahren."

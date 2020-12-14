@@ -1,5 +1,5 @@
-email_input_field = "[data-test-id='login.email']"
-password_input_field = "[data-test-id=\"login.password\"]"
-submit_button = "[data-test-id=\"login.submit\"]"
-forgot_password = "[href=\"/forgot-password\"]"
-login_error = "[data-test-id=\"login-error\"]"
+email_input_field = '[name="email"][data-qa-selector="form-control"]'
+password_input_field = 'input[name="password"][data-qa-selector="password"]'
+submit_button = 'button[type="submit"]'
+login_error = '[data-qa-selector="help"][data-qa-selector-name="email"]'
+confirm_email_section = '[data-qa-selector="section"]'
